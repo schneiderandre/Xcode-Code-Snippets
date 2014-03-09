@@ -1,6 +1,7 @@
 #Xcode Code Snippets
 
-A collection of some useful Xcode Code Snippets.
+A list of Xcode snippets that you can use in your daily work and I backed up here in case I lose my data.
+If you only need a certain snippet, just compare the Indentifier with the snippet name and grab the matching.
 
 This collection is work in progress, so please don't be sad if it does not include many snippets right now.
 
