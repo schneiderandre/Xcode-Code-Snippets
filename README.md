@@ -5,6 +5,10 @@ If you only need a certain snippet, just compare the Indentifier with the snippe
 
 This collection is work in progress, so please don't be sad if it does not include many snippets right now.
 
+##Using the Snippets
+Simply paste the snippets to `~/Library/Developer/Xcode/UserData/CodeSnippets/`.
+Then use them with the defined shortcut or via the Code Snippets Library.
+
 ##Snippets
 ###Property declaration for Classes
 Declare a strong property for classes with the shortcut `propclass`. The `strong` attribute has been left out, since it is a default attribute for an object.
