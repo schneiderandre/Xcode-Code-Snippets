@@ -25,3 +25,19 @@ The Snippet Identifier is BB615F7C-42B4-4D8E-B9DC-E88E67AECF9E.
 ```objc
 @property (nonatomic) <#primitive#> <#name#>;
 ```
+
+###Shared Singleton
+Declare a class method that returns a singleton instance with the shortcut `singleton`.
+
+The Snippet Identifier is F86AA18F-8CC6-40D7-8A84-22954F7440E0.
+```objc
++ (instancetype)shared<#name#> {
+    static <#class#> *_shared<#name#> = nil;
+    static dispatch_once_t onceToken;
+    dispatch_once(&onceToken, ^{
+        _shared<#name#> = <#initializer#>;
+    });
+
+    return _shared<#name#>;
+}
+```
