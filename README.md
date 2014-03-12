@@ -41,3 +41,12 @@ The Snippet Identifier is F86AA18F-8CC6-40D7-8A84-22954F7440E0.
     return _shared<#name#>;
 }
 ```
+
+###Weak Reference
+Declare a weak reference to self with the shortcut `weakself`.
+
+The Snippet Identifier is 316BDE7C-95F6-4B52-A6C5-6253081AD7D6.
+```objc
+__weak typeof(self)weakSelf = self;
+```
+
