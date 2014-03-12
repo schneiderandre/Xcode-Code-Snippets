@@ -5,6 +5,9 @@ If you only need a certain snippet, just compare the Indentifier with the snippe
 
 This collection is work in progress, so please don't be sad if it does not include many snippets right now.
 
+Some of these and many other snippets can also be found at [Mattt Thompsons snippet repository](https://github.com/mattt/Xcode-Snippets).
+
+
 ##Using the Snippets
 Simply paste the snippets to `~/Library/Developer/Xcode/UserData/CodeSnippets/`.
 Then use them with the defined shortcut or via the Code Snippets Library.
