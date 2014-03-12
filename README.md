@@ -50,3 +50,11 @@ The Snippet Identifier is 316BDE7C-95F6-4B52-A6C5-6253081AD7D6.
 __weak typeof(self)weakSelf = self;
 ```
 
+###Strong Reference
+Declare a strong reference to weak reference with the shortcut `strongself`.
+
+The Snippet Identifier is 7C490651-8BC2-48E0-A6FC-5665AEE586F8.
+```objc
+__strong typeof(weakSelf)strongSelf = weakSelf;
+```
+
